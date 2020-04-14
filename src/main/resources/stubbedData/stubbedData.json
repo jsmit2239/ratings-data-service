@@ -1,0 +1,13 @@
+{
+  "ratings": [
+    {"userId": "1", "movieId": "177675", "rating": "10"},
+    {"userId": "1", "movieId": "567933", "rating": "4"},
+    {"userId": "1", "movieId": "822512", "rating": "5"},
+    {"userId": "2", "movieId": "894960", "rating": "6"},
+    {"userId": "2", "movieId": "333377", "rating": "6"},
+    {"userId": "2", "movieId": "101254", "rating": "8"},
+    {"userId": "2", "movieId": "799874", "rating": "7"},
+    {"userId": "3", "movieId": "671014", "rating": "8"},
+    {"userId": "3", "movieId": "614311", "rating": "10"}
+  ]
+}

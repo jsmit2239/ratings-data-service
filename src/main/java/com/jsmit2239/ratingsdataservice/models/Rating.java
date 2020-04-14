@@ -2,12 +2,22 @@ package com.jsmit2239.ratingsdataservice.models;
 
 public class Rating {
 
+    private String userId;
     private String movieId;
     private int rating;
 
-    public Rating(String movieId, int rating) {
+    public Rating(String userId, String movieId, int rating) {
+        this.userId = userId;
         this.movieId = movieId;
         this.rating = rating;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
     public String getMovieId() {
@@ -25,4 +35,5 @@ public class Rating {
     public void setRating(int rating) {
         this.rating = rating;
     }
+
 }
